@@ -1,16 +1,21 @@
-# onion_check
-Handy Tool to check the availability of onion site and to extract the title of submitted onion URL.
-> This tool helps to investigate a huge set of onion sites by checking its **availability** which helps to filter out the inactive sites and collect the **site title** that might helps us to categories what site we are handling.
+Main
 
-## Installation
-Clone the repository.
-<br /> Navigate to the folder containing onion_check.py
-<br /> Install the requirements
-<br /> You are ready to go...
+OnionCheck is a program for monitoring closed onion-pages. The fact is that on the Darknet, most of the sites 
+are either dead or open only for a while. The reasons are different: maybe the owner does not have money for 
+permanent hosting, or he wants to let only a narrow community of trusted people into his page... 
+In any case, when a netstalker finds a suspicious site that is closed at the moment, our tool will help him/her
+to automatically track the activity of the page and understand if this site is really as dead as it seems.
 
-## How it works
-Run the script onion_check.py which will check for Tor Configuration. 
-<br /> If Tor configuration fails, configure it properly [Refer: https://miloserdov.org/?p=1839]
-<br /> If all set, the script asks for input -- submit the file path containing onion URLs (one URL in a line) as input
+Usage
 
-> **Happy Hunting**
+Just launch Tor browser(!), add any url addresses in the 'Settings' section and click 'Start' in main menu. 
+You can also click 'Edit_Schedule' to set frequency to adjust the frequency with which the program will check the status of sites.
+The entire chronicle of the work of each site will be recorded in a 'results.txt' file. You can let this program work for a few days
+and then see it's report. Don't forget that the Tor browser must be working as well.
+
+Telegram Bot
+
+If you want to receive notifications each time when program detects an active site, 
+click 'Set up a telegram bot' in main menu. You will need to create a bot with @BotFather 
+in telegram and give us it's access token and your telegram id (use @getmyid_bot to get it).
+Then you can check if your bot is connected with 'Check_for_a_bot' option.
