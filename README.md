@@ -17,5 +17,5 @@ Telegram Bot
 
 If you want to receive notifications each time when program detects an active site, 
 click 'Set up a telegram bot' in main menu. You will need to create a bot with @BotFather 
-in telegram and give us it's access token and your telegram id (use @getmyid_bot to get it).
+in telegram and give the program it's access token and your telegram id (use @getmyid_bot to get it).
 Then you can check if your bot is connected with 'Check_for_a_bot' option.
